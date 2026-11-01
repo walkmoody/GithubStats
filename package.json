@@ -1,0 +1,15 @@
+{
+  "name": "github-stats",
+  "version": "1.0.0",
+  "description": "Generates SVG stat cards for a GitHub profile README.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "generate": "node src/index.js",
+    "demo": "node src/index.js --demo",
+    "test": "node --test"
+  },
+  "author": "Walker Moody",
+  "license": "MIT"
+}

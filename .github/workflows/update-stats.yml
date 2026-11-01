@@ -1,0 +1,52 @@
+name: Update stat cards
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths: ["src/**", ".github/workflows/update-stats.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run tests
+        run: npm test
+
+      - name: Generate cards
+        run: npm run generate
+        env:
+          # STATS_TOKEN is a personal access token you add as a repo secret.
+          # Without it, the built-in token still works but only sees public data.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+          INCLUDE_PRIVATE: ${{ vars.INCLUDE_PRIVATE || 'false' }}
+          EXCLUDE_LANGS: ${{ vars.EXCLUDE_LANGS || 'HTML,CSS,Jupyter Notebook' }}
+          EXCLUDE_REPOS: ${{ vars.EXCLUDE_REPOS }}
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --cached --quiet; then
+            echo "Cards unchanged."
+          else
+            git commit -m "Update stat cards"
+            git push
+          fi
