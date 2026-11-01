@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="206" viewBox="0 0 560 206" role="img" aria-labelledby="card-title">
+  <title id="card-title">Most used languages</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-variant-numeric: tabular-nums; }
+    .title { font-size: 18px; font-weight: 600; fill: #13223A; }
+    .sub { font-size: 12px; fill: #5B6B82; }
+    .num { font-size: 22px; font-weight: 600; fill: #13223A; }
+    .big { font-size: 28px; font-weight: 600; fill: #13223A; }
+    .label { font-size: 12px; fill: #5B6B82; }
+    .small { font-size: 11px; fill: #5B6B82; }
+    .item { font-size: 13px; fill: #13223A; }
+  </style>
+  <rect x="0.5" y="0.5" width="559" height="205" rx="10" fill="#F7F9FC" stroke="#DCE3EE"/>
+  <text class="title" x="28" y="42">Languages</text>
+  <clipPath id="bar"><rect x="28" y="60" width="504" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="28.0" y="60" width="309.4" height="10" fill="#555555"/>
+    <rect x="339.4" y="60" width="130.6" height="10" fill="#f34b7d"/>
+    <rect x="472.0" y="60" width="26.2" height="10" fill="#f1e05a"/>
+    <rect x="500.2" y="60" width="17.0" height="10" fill="#3572A5"/>
+    <rect x="519.2" y="60" width="3.1" height="10" fill="#DA3434"/>
+    <rect x="524.3" y="60" width="3.1" height="10" fill="#3178c6"/>
+    <rect x="529.4" y="60" width="2.6" height="10" fill="#5B6B82"/>
+  </g>
+  <circle cx="33" cy="98" r="5" fill="#555555"/>
+  <text class="item" x="46" y="102">C</text>
+  <text class="label" x="256" y="102" text-anchor="end">62%</text>
+  <circle cx="33" cy="124" r="5" fill="#f34b7d"/>
+  <text class="item" x="46" y="128">C++</text>
+  <text class="label" x="256" y="128" text-anchor="end">26%</text>
+  <circle cx="33" cy="150" r="5" fill="#f1e05a"/>
+  <text class="item" x="46" y="154">JavaScript</text>
+  <text class="label" x="256" y="154" text-anchor="end">5.6%</text>
+  <circle cx="33" cy="176" r="5" fill="#3572A5"/>
+  <text class="item" x="46" y="180">Python</text>
+  <text class="label" x="256" y="180" text-anchor="end">3.8%</text>
+  <circle cx="285" cy="98" r="5" fill="#DA3434"/>
+  <text class="item" x="298" y="102">CMake</text>
+  <text class="label" x="508" y="102" text-anchor="end">1.0%</text>
+  <circle cx="285" cy="124" r="5" fill="#3178c6"/>
+  <text class="item" x="298" y="128">TypeScript</text>
+  <text class="label" x="508" y="128" text-anchor="end">1.0%</text>
+  <circle cx="285" cy="150" r="5" fill="#5B6B82"/>
+  <text class="item" x="298" y="154">Other</text>
+  <text class="label" x="508" y="154" text-anchor="end">&lt;1%</text>
+</svg>
