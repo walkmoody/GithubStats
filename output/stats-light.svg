@@ -26,11 +26,11 @@
     <text class="label" y="20">Pull requests</text>
   </g>
   <g transform="translate(330.4 98)">
-    <text class="num">30</text>
+    <text class="num">49</text>
     <text class="label" y="20">Stars earned</text>
   </g>
   <g transform="translate(431.2 98)">
-    <text class="num">22</text>
+    <text class="num">56</text>
     <text class="label" y="20">Repositories</text>
   </g>
   <line x1="28" y1="194" x2="532" y2="194" stroke="#E6ECF4" stroke-width="1"/>
