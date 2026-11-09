@@ -23,7 +23,7 @@
     <text class="small" y="126">Mar 1 to Mar 13</text>
   </g>
   <g transform="translate(364.0 0)">
-    <text x="0" y="86"><tspan class="big">163</tspan><tspan class="label" dx="6">of 365</tspan></text>
+    <text x="0" y="86"><tspan class="big">163</tspan><tspan class="label" dx="6">of 366</tspan></text>
     <text class="item" y="108">Active days</text>
     <text class="small" y="126">45% of the last year</text>
   </g>
