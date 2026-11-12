@@ -14,12 +14,12 @@
   <text class="title" x="28" y="42">Languages</text>
   <clipPath id="bar"><rect x="28" y="60" width="504" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="28.0" y="60" width="164.5" height="10" fill="#DA5B0B"/>
-    <rect x="194.5" y="60" width="119.0" height="10" fill="#f1e05a"/>
-    <rect x="315.5" y="60" width="75.8" height="10" fill="#e34c26"/>
-    <rect x="393.3" y="60" width="66.1" height="10" fill="#555555"/>
-    <rect x="461.4" y="60" width="37.9" height="10" fill="#3572A5"/>
-    <rect x="501.3" y="60" width="24.8" height="10" fill="#f34b7d"/>
+    <rect x="28.0" y="60" width="164.1" height="10" fill="#DA5B0B"/>
+    <rect x="194.1" y="60" width="119.1" height="10" fill="#f1e05a"/>
+    <rect x="315.2" y="60" width="75.6" height="10" fill="#e34c26"/>
+    <rect x="392.8" y="60" width="65.9" height="10" fill="#555555"/>
+    <rect x="460.8" y="60" width="38.6" height="10" fill="#3572A5"/>
+    <rect x="501.3" y="60" width="24.7" height="10" fill="#f34b7d"/>
     <rect x="528.0" y="60" width="4.0" height="10" fill="#8A9BB4"/>
   </g>
   <circle cx="33" cy="98" r="5" fill="#DA5B0B"/>
@@ -33,10 +33,10 @@
   <text class="label" x="256" y="154" text-anchor="end">15%</text>
   <circle cx="33" cy="176" r="5" fill="#555555"/>
   <text class="item" x="46" y="180">C</text>
-  <text class="label" x="256" y="180" text-anchor="end">14%</text>
+  <text class="label" x="256" y="180" text-anchor="end">13%</text>
   <circle cx="285" cy="98" r="5" fill="#3572A5"/>
   <text class="item" x="298" y="102">Python</text>
-  <text class="label" x="508" y="102" text-anchor="end">7.9%</text>
+  <text class="label" x="508" y="102" text-anchor="end">8.0%</text>
   <circle cx="285" cy="124" r="5" fill="#f34b7d"/>
   <text class="item" x="298" y="128">C++</text>
   <text class="label" x="508" y="128" text-anchor="end">5.3%</text>
