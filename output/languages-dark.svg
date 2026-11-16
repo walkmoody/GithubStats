@@ -14,12 +14,12 @@
   <text class="title" x="28" y="42">Languages</text>
   <clipPath id="bar"><rect x="28" y="60" width="504" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="28.0" y="60" width="161.2" height="10" fill="#DA5B0B"/>
-    <rect x="191.2" y="60" width="124.9" height="10" fill="#f1e05a"/>
-    <rect x="318.1" y="60" width="74.3" height="10" fill="#e34c26"/>
-    <rect x="394.3" y="60" width="64.7" height="10" fill="#555555"/>
-    <rect x="461.1" y="60" width="38.8" height="10" fill="#3572A5"/>
-    <rect x="501.9" y="60" width="24.2" height="10" fill="#f34b7d"/>
+    <rect x="28.0" y="60" width="160.4" height="10" fill="#DA5B0B"/>
+    <rect x="190.4" y="60" width="126.7" height="10" fill="#f1e05a"/>
+    <rect x="319.0" y="60" width="73.9" height="10" fill="#e34c26"/>
+    <rect x="395.0" y="60" width="64.4" height="10" fill="#555555"/>
+    <rect x="461.4" y="60" width="38.6" height="10" fill="#3572A5"/>
+    <rect x="502.0" y="60" width="24.1" height="10" fill="#f34b7d"/>
     <rect x="528.1" y="60" width="3.9" height="10" fill="#8A9BB4"/>
   </g>
   <circle cx="33" cy="98" r="5" fill="#DA5B0B"/>
@@ -27,7 +27,7 @@
   <text class="label" x="256" y="102" text-anchor="end">32%</text>
   <circle cx="33" cy="124" r="5" fill="#f1e05a"/>
   <text class="item" x="46" y="128">JavaScript</text>
-  <text class="label" x="256" y="128" text-anchor="end">25%</text>
+  <text class="label" x="256" y="128" text-anchor="end">26%</text>
   <circle cx="33" cy="150" r="5" fill="#e34c26"/>
   <text class="item" x="46" y="154">HTML</text>
   <text class="label" x="256" y="154" text-anchor="end">15%</text>
