@@ -14,11 +14,11 @@
   <text class="title" x="28" y="42">Languages</text>
   <clipPath id="bar"><rect x="28" y="60" width="504" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="28.0" y="60" width="157.4" height="10" fill="#DA5B0B"/>
-    <rect x="187.4" y="60" width="132.2" height="10" fill="#f1e05a"/>
-    <rect x="321.6" y="60" width="72.6" height="10" fill="#e34c26"/>
-    <rect x="396.2" y="60" width="63.2" height="10" fill="#555555"/>
-    <rect x="461.4" y="60" width="39.2" height="10" fill="#3572A5"/>
+    <rect x="28.0" y="60" width="157.3" height="10" fill="#DA5B0B"/>
+    <rect x="187.3" y="60" width="132.4" height="10" fill="#f1e05a"/>
+    <rect x="321.7" y="60" width="72.6" height="10" fill="#e34c26"/>
+    <rect x="396.3" y="60" width="63.2" height="10" fill="#555555"/>
+    <rect x="461.5" y="60" width="39.1" height="10" fill="#3572A5"/>
     <rect x="502.6" y="60" width="23.6" height="10" fill="#f34b7d"/>
     <rect x="528.2" y="60" width="3.8" height="10" fill="#5B6B82"/>
   </g>
